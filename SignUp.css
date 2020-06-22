@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    font: outline;
+}
+
 /* For the Background Image */
 .bg {
     /* The image used */
-    background-image: url('images/bg1Image.jpg');
-    
-    /* Full height */
-    /* height: 100%; */
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('images/bg1Image.jpg');
+
     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
     background-size: cover;
 }
+
 .bg2 {
     /* The image used */
     background-image: url('images/bgImage.jpg');
-    
     
     /* Center and scale the image nicely */
     background-position: center;
@@ -22,9 +29,9 @@
 }
     /* Form Properties adjusted */
 .form-control {
-    background-color: #fff;
     border: 3px solid rgba(23, 28, 38, 0.6);
-    color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 .btn.btn-secondary {
     background-color: #F1B600;
@@ -33,22 +40,17 @@
     font-weight: 500;
     font-size: larger;
 }
-.btn.btn-secondary:hover {
-    border: 0px solid #F1B600;
-    color: #000000;
-}
+
+p,
 a,
 span {
-    color: #CB1206;
+    color: #F1B600;
 }
-a,
-span:hover{
-    cursor: pointer;
+
+a:hover{
     text-decoration: none;
 }
 p {
-    font-weight: 700;
+    font-weight: 400;
     color: #000000;
-    line-height: 2rem;
 }
-    

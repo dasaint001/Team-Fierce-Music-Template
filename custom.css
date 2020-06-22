@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    font: outline;
+    background-color: #016477;
+}
+
 /* For the Background Image */
 .bg {
     /* The image used */
@@ -60,6 +69,6 @@ a:hover{
     color: #F1B600;
 }
 p {
-    font-weight: 600;
+    font-weight: 400;
 }
     
