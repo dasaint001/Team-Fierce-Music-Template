@@ -1,0 +1,29 @@
+
+.bg-overlay {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 15rem;
+  padding-top: 50px;
+  object-fit: contain;
+}
+/* TOP CHARTS */
+.top-chart{
+  background-color: #171C26;
+}
+/* FORM AND FOOTER */
+.form-footer{
+  background-color: #171C26 ;
+}
+/* SEARCH BOX */
+.search{
+  border-radius: 0px;
+  width: 30rem;
+  
+}
+.card{
+ border: none;
+ background-color: rgba(255, 222, 173, 0);
+}
