@@ -1,5 +1,6 @@
 <?php
 
+    require_once("env");
     function checkDbConnection()
     {
         $servername = 'us-cdbr-east-05.cleardb.net';

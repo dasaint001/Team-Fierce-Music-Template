@@ -37,7 +37,7 @@ $mail->Port = 2525;
         // init configuration
         $clientID = '171511731621-606nleg6pn92pnd0gsucvqi3lfbshta6.apps.googleusercontent.com';
         $clientSecret = '4Y2IZ31ky3lILodvldH5vwks';
-        $redirectUri = 'https://teamfiercemusic.herokuapp.com/checklogin.php';
+        $redirectUri =  'https://teamfiercemusic.herokuapp.com/checklogin.php';
         
         // create Client Request to access Google API
         $client = new Google_Client();
@@ -87,6 +87,8 @@ $mail->Port = 2525;
             $_SESSION['email'] = $email;
 
             $connect->close();
+            $content = "You have succesfully login.";
+            set_alert("message", $connect);
             header("location: index.php");
                         
         }else{
